@@ -11,6 +11,7 @@ def encoder(inputText, n = 0):
         encodes the input 
     """
     shiftAmmnt = secrets.randbelow(len(lists["16"]))
+    strLength = len(tobits(inputText))
     #for i in range(len(lists)):
     #    lists[i] = shift(lists, shiftAmmnt)
 
@@ -21,9 +22,9 @@ def encoder(inputText, n = 0):
         return "String is non-ascii, please try again with an ascii encoded string"
 
     i = len(encodeLengths) - 1 
-    if n not in encodeLengths or len(inputText) % n:
+    if n not in encodeLengths or strLength % n != 0 or strLength / n < 1:
         while i >= 0:
-            if len(inputText) % encodeLengths[i] == 0:
+            if strLength % encodeLengths[i] == 0 and strLength / encodeLengths[i] >= 1:
                 print("Using table of length: " + str(encodeLengths[i]))
                 n = encodeLengths[i]
                 break
