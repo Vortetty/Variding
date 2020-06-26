@@ -5,7 +5,9 @@ Requires no libraries
 
 This is [the original](https://github.com/Vortetty/Variding)
 Current versions (showing forks, etc):
- - https://github.com/Vortetty/Variding
+- Python
+  - https://github.com/Vortetty/Variding
+    - none
 
 # MAKE SURE YOU READ THE LICENSE
 too many people dont and there are important terms in there
