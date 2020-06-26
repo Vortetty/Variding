@@ -62,15 +62,15 @@ def encoder(inputText, n = 0):
     output += ("⌬" + ''.join(chr(shiftAmmnt)))
     # This is other metadata, just a json string, parameters are encoder name/nickname, discord ping if you have one (if you dont just put "null" or "nil"), timestamp (unix time, will be localized to the user upon decompilation), and author of the program used with contact for the author. other data can be specified and will be printed upon reading of the json.
     # metadata = tobits('{"name":"Vortetty","discord":"Vortetty#7462","timestamp":' + str(time.time()) + ',"Author":"Vortetty#7462","Encoder_Written_In": "Python 3.8.3", "Encoder/Decoder_Version":"1"}')
-    metadata = tobits('{"discord":"Vortetty#7462"}')
-    i = None
-    metadata = [metadata[i : i + 8] for i in range(0, len(metadata), 8)]
-    encmetadata = ""
-    for i in range(len(metadata)):
-        encmetadata += metaTable[int(metadata[i], 2)]
-    output += ("⌬" + encmetadata)
+    # metadata = tobits('{"discord":"Vortetty#7462"}')
+    # i = None
+    # metadata = [metadata[i : i + 8] for i in range(0, len(metadata), 8)]
+    # encmetadata = ""
+    # for i in range(len(metadata)):
+    #     encmetadata += metaTable[int(metadata[i], 2)]
+    # output += ("⌬" + encmetadata)
 
-    # this is how the decoder knows what separator to use :p
+    # this is how the decoder knows what separator to use :)
     output += "⌬"
 
     return output
@@ -149,6 +149,9 @@ def shiftl(seq, n=0):
 def split(word): 
     return [char for char in word]
 
-print(encoder("", 0))
 
+#uncomment the below line and set the string to encode stuff
+#print(encoder(""))
+
+#uncommenr the below like and set the string to decode stuff
 #print(decoder(""))
