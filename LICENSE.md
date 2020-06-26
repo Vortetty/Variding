@@ -1,7 +1,8 @@
 ALONG WITH THE TERMS OF THE LICENSE YOU ARE REQUIRED TO:
- - Ask before adapting, copying, or modifying the code in this repository (i will most likely approve it)
- - Upon approval to adapt, copy, or modify the code in this repository, you must link the code publicly and provide the link to me
- - You may allow people to adapt, copy, or modifyyour code, however any adaptions of your code are subect to the previous term
+ - Ask before adapting, copying, or modifying the source code in this repository (i will most likely approve it)
+ - Upon approval to adapt, copy, or modify the source code in this repository, you must link the code publicly and provide the link to [Vortetty](https://github.com/Vortetty)
+ - You may allow people to adapt, copy, or modify your source code, however any adaptions, copies, and modifications of your source code are subect to the previous term and this term
+ - You may not use this source code for anything illegal or malicious. And i am not responsible for any repurcussions that may come as a result of illegal or malicious use.
 
                    GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
