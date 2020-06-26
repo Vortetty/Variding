@@ -4,6 +4,7 @@ An encoding i wrote in 3 days, written in python, but able to be reasonably adap
 Requires no libraries
 
 This is [the original](https://github.com/Vortetty/Variding)
+
 Current versions (showing forks, etc):
 - https://github.com/Vortetty/Variding (python)
 
