@@ -5,6 +5,15 @@ Requires no libraries
 
 This is [the original](https://github.com/Vortetty/Variding)
 
+New features:
+- .vad file, it is a file extension used for files encrypted using Variding. 
+  - as par as i can tell no other files should use this file extension
+  
+Planned features:
+- Installer
+  - Will add a context item to all files to encode them
+  - Will add a contect item to .vad files to decrypt them
+
 Current versions (showing forks, etc):
 - https://github.com/Vortetty/Variding (python)
 
