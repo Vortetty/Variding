@@ -12,7 +12,7 @@ New features:
 Planned features:
 - Installer
   - Will add a context item to all files to encode them
-  - Will add a contect item to .vad files to decrypt them
+  - Will add a contect item to .vad files to decode them
 
 Current versions (showing forks, etc):
 - https://github.com/Vortetty/Variding (python)
